@@ -143,7 +143,6 @@ def load_books_tags(catalog, filename):
     book_tags = catalog.get("Book_tags")
     book_tags_file = os.path.join(data_dir, filename)
     catalog["Book_tags"] = set.load_set(book_tags, book_tags_file)
-    
     if book_tags is None:
         return None
     else:
