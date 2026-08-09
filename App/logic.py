@@ -121,7 +121,7 @@ def load_tags(catalog, filename):
     else:
         return set.size(tags)
 
-
+# Función corregida con ayuda de IAG
 def load_books_tags(catalog, filename):
     """
     Carga los tags de los libros del archivo y los agrega a la lista
